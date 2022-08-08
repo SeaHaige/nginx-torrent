@@ -20,13 +20,12 @@ misrepresented as being the original software.
 3. This notice may not be removed or altered from any source
 distribution.
 */
-  
- 
+
+
 #include <vector>
 #include <thread>
 #include <mutex>
-#include <string>
- 
+#include <string> 
 #ifdef WIN32
 #define stat64 _stat64
 #endif
@@ -48,8 +47,8 @@ static std::mutex downloadmutex;
 static TORRENT_SESSION sessionid=-1;
 
 #pragma comment(lib,"pktorrent.lib")
- 
- 
+
+
 extern "C"{
 
       void clear_timeout_session( ){

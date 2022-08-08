@@ -9,7 +9,6 @@ if test -n "$ngx_module_link"; then
     ngx_module_name=ngx_http_pktorrent_module
     ngx_module_libs="-lpktorrent -lssl -lcrypto"
     ngx_module_srcs="$ngx_addon_dir/ngx_http_pktorrent_module.c $ngx_addon_dir/pktorrent.cpp"
-
     . auto/module
 else
     HTTP_MODULES="$HTTP_MODULES ngx_http_hello_world_module"

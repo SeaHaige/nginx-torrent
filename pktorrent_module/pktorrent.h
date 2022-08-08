@@ -27,7 +27,6 @@ namespace Pktorrent {
 	char* get_version();
 	typedef int TORRENT_SESSION;
 	typedef int TORRENT_FILE;
-
 	enum { invalid_session = -1 };
 	enum { invalid_file = -1 };
 
