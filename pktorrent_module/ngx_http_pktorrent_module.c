@@ -27,7 +27,6 @@ distribution.
 
 #ifdef WIN32
 #include<direct.h>
-
 #else
 #include <linux/limits.h>
 #endif
